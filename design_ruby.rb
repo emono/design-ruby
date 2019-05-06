@@ -1,6 +1,6 @@
-require './lib/gear'
+require './lib/gear_warpper'
 require './lib/wheel'
-puts Gear.new(
+puts GearWarpper.gear(
   chainring: 52, 
   cog: 11, 
   rim: 26, 
