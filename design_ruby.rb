@@ -1,8 +1,3 @@
-require './lib/gear_warpper'
+require './lib/gear'
 require './lib/wheel'
-puts GearWarpper.gear(
-  chainring: 52, 
-  cog: 11, 
-  rim: 26, 
-  tire: 1.5
-).gear_inches
+puts Wheel.new(26, 1.5, 52, 11).gear_inches
